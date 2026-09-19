@@ -23,7 +23,7 @@
 #include <string>
 #include <vector>
 
-#define ACKIT_VERSION "1.0.0"
+#define ACKIT_VERSION "1.1.0"
 
 namespace fs = std::filesystem;
 
@@ -33,7 +33,7 @@ namespace fs = std::filesystem;
 const fs::path TEMPLATE_PATH =
     fs::path(std::getenv("HOME")) / ".config/ackit/template.cpp";
 
-const std::vector<std::string> PROBLEMS = {"a", "b", "c", "d", "e"};
+const std::vector<std::string> PROBLEMS = {"a", "b", "c", "d", "e", "f"};
 
 // ----------------------------------------------------------------
 // ユーティリティ
